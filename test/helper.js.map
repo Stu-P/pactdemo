@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/helper.js"],"names":[],"mappings":"AAAA;;AAEA;;;;AACA;;;;AACA;;;;;;AAEA,eAAK,GAAL;AACA,eAAK,GAAL","file":"helper.js","sourcesContent":["'use strict'\r\n\r\nimport chai from 'chai'\r\nimport sinonChai from 'sinon-chai'\r\nimport chaiAsPromised from 'chai-as-promised'\r\n\r\nchai.use(sinonChai)\r\nchai.use(chaiAsPromised)\r\n"]}
