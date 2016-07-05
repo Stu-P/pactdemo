@@ -1,0 +1,18 @@
+ref:https://github.com/pact-foundation/pact-js
+https://github.com/DiUS/pact-js-provider
+
+
+For VSCode / windows
+- Set up task for babel to compile js to es5  
+- set up launch.json for running mocha tests
+- install ruby ( ruby 2.2.4p230 ) 
+- If http_proxy set in env varibles, make sure you set var for "NO_PROXY" "localhost"
+
+
+- to test mock-service,   
+run bat @ $\pactDemo\node_modules\@pact-foundation\pact-node\node_modules\@pact-foundation\pact-mock-service\node_modules\.bin
+
+ GET localhost:{portnum}
+headers:
+Content-Type: application/json
+X-Pact-Mock-Service: true
